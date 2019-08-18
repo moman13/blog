@@ -1,0 +1,14 @@
+{
+    "name": "UserManagment",
+    "alias": "usermanagment",
+    "description": "",
+    "keywords": [],
+    "active": 1,
+    "order": 0,
+    "providers": [
+        "Modules\\UserManagment\\Providers\\UserManagmentServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}

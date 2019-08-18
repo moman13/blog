@@ -20,6 +20,8 @@ class CreateBlogsTable extends Migration
             $table->string('post_tittle')->nullable();
             $table->text('post_descripition')->nullable();
             $table->string('post_photo')->nullable();
+            $table->string('post_photo')->nullable();
+
             $table->integer('view_count');
             $table->timestamps();
         });
